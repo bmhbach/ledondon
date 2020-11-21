@@ -9,18 +9,23 @@ const Box = (props: MeshProps) => {
 	// Set up state for the hovered and active state
 	const [hovered, setHover] = useState(false);
 	const [active, setActive] = useState(false);
+	const [time, setTime] = useState(0);
 
 	// Rotate mesh every frame, this is outside of React without overhead
 	useFrame(() => {
 		if (mesh.current) mesh.current.rotation.x = mesh.current.rotation.x += 0.03;
 		if (mesh.current) mesh.current.rotation.y = mesh.current.rotation.y += 0.03;
+
+		if (mesh.current) 
+			mesh.current.position.x += Math.sin(Math.PI * 2 * time / 600 + (Math.PI / 2)) * 0.05;
+		setTime(time + 1);
 	});
 
 	return (
 		<mesh
 			{...props}
 			ref={mesh}
-			scale={active ? [2.5, 2.5, 7] : [1, 1, 1]}
+			scale={active ? [2.5, 2.5, 2.5] : [1, 1, 1]}
 			onClick={(event) => setActive(!active)}
 			onPointerOver={(event) => setHover(true)}
 			onPointerOut={(event) => setHover(false)}>
