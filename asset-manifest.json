@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ledondon/static/css/main.53d7cbcc.chunk.css",
-    "main.js": "/ledondon/static/js/main.67a48ef7.chunk.js",
-    "main.js.map": "/ledondon/static/js/main.67a48ef7.chunk.js.map",
+    "main.css": "/ledondon/static/css/main.bb07e83e.chunk.css",
+    "main.js": "/ledondon/static/js/main.a57078e6.chunk.js",
+    "main.js.map": "/ledondon/static/js/main.a57078e6.chunk.js.map",
     "runtime-main.js": "/ledondon/static/js/runtime-main.4059f2cb.js",
     "runtime-main.js.map": "/ledondon/static/js/runtime-main.4059f2cb.js.map",
-    "static/js/2.5a0caf44.chunk.js": "/ledondon/static/js/2.5a0caf44.chunk.js",
-    "static/js/2.5a0caf44.chunk.js.map": "/ledondon/static/js/2.5a0caf44.chunk.js.map",
+    "static/js/2.42637017.chunk.js": "/ledondon/static/js/2.42637017.chunk.js",
+    "static/js/2.42637017.chunk.js.map": "/ledondon/static/js/2.42637017.chunk.js.map",
     "index.html": "/ledondon/index.html",
-    "static/css/main.53d7cbcc.chunk.css.map": "/ledondon/static/css/main.53d7cbcc.chunk.css.map",
-    "static/js/2.5a0caf44.chunk.js.LICENSE.txt": "/ledondon/static/js/2.5a0caf44.chunk.js.LICENSE.txt"
+    "static/css/main.bb07e83e.chunk.css.map": "/ledondon/static/css/main.bb07e83e.chunk.css.map",
+    "static/js/2.42637017.chunk.js.LICENSE.txt": "/ledondon/static/js/2.42637017.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4059f2cb.js",
-    "static/js/2.5a0caf44.chunk.js",
-    "static/css/main.53d7cbcc.chunk.css",
-    "static/js/main.67a48ef7.chunk.js"
+    "static/js/2.42637017.chunk.js",
+    "static/css/main.bb07e83e.chunk.css",
+    "static/js/main.a57078e6.chunk.js"
   ]
 }
