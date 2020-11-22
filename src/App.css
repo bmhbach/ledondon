@@ -23,3 +23,15 @@
   flex: 20;
   background-color: #FCEEB5;
 }
+
+.container {
+  flex: 20;
+  position: relative;
+}
+
+.script-box {
+  will-change: width, height, left, top;
+  position: absolute;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
