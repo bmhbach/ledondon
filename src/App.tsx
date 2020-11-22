@@ -83,17 +83,17 @@ const App = () => {
 			<header className="App-header">
 				<p>ledondon</p>
 			</header>
-			{/* <Canvas className="Canvas">
-				<ambientLight intensity={0.5} />
-				<spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
-				<pointLight position={[-10, -10, -10]} />
-				<Box position={[0, 0, 0]} />
-			</Canvas> */}
 			<div className="container">
 				<animated.div className="script-box" style={props1} />
 				<animated.div className="script-box" style={props2} />
 				<animated.div className="script-box" style={props3} />
 				<animated.div className="script-box" style={props4} />
+				<Canvas className="Canvas">
+					<ambientLight intensity={0.5} />
+					<spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
+					<pointLight position={[-10, -10, -10]} />
+					<Box position={[0, 0, 0]} />
+				</Canvas>
 			</div>
 		</div>
 	);

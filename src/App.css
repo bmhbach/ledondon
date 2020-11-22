@@ -19,14 +19,14 @@
   color: white;
 }
 
-.Canvas {
-  flex: 20;
-  background-color: #FCEEB5;
-}
-
 .container {
   flex: 20;
   position: relative;
+  background-color: #FCEEB5;
+}
+
+.Canvas {
+  position: absolute;
 }
 
 .script-box {
